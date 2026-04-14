@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ТОВ Торговий Дім «Тракторний Завод» — продаж тракторів EUROFENG, ДМТЗ, ґрунтофрез та запчастин. Самовивіз зі складу. Вигідні ціни.">
+  <title>ТДТЗ — Торговий Дім «Тракторний Завод» | Продаж сільгосптехніки</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== TOP BAR ===== -->
+<div id="top-bar">
+  <div class="container">
+    <div class="top-bar-inner">
+      <span><i class="bi bi-clock"></i> Пн–Пт: 9:00–18:00 &nbsp;|&nbsp; Сб: 9:00–15:00</span>
+      <span><i class="bi bi-geo-alt-fill"></i> м. Тернопіль, вул. Острозького В.К., 4</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header id="main-header">
+  <div class="container">
+    <div class="header-inner">
+
+      <a href="#" class="logo">
+        <div class="logo-icon"><i class="bi bi-gear-wide-connected"></i></div>
+        <div class="logo-text">
+          <span class="logo-abbr">ТДТЗ</span>
+          <span class="logo-full">Тракторний Завод</span>
+        </div>
+      </a>
+
+      <nav class="header-nav d-none d-lg-flex">
+        <a href="#catalog">Каталог</a>
+        <a href="#advantages">Переваги</a>
+        <a href="#contacts">Контакти</a>
+      </nav>
+
+      <div class="header-right">
+        <a href="tel:+380685230547" class="header-phone-num d-none d-md-flex">
+          <i class="bi bi-telephone-fill"></i>+38 (068) 523-05-47
+        </a>
+        <a href="tel:+380685230547" class="btn btn-primary-cta btn-sm">
+          <i class="bi bi-telephone-fill"></i>
+          <span>Зателефонувати</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="hero">
+  <div class="hero-bg-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+  </div>
+  <div class="container">
+    <div class="row align-items-center gy-4">
+
+      <div class="col-12 col-lg-6 hero-content">
+        <div class="hero-badge">
+          <i class="bi bi-patch-check-fill"></i> Офіційний постачальник з 2024 року
+        </div>
+        <h1 class="hero-title">
+          <span class="accent">Сільгосптехніка</span><br>
+          прямо зі складу —<br>
+          без посередників
+        </h1>
+        <ul class="hero-list">
+          <li><i class="bi bi-check-lg"></i> Трактори EUROFENG, ДМТЗ, TERRA FORCE</li>
+        </ul>
+        <div class="hero-actions">
+          <a href="#catalog" class="btn btn-primary-cta">
+            <i class="bi bi-grid-fill"></i> Відкрити каталог
+          </a>
+          <a href="tel:+380685230547" class="btn btn-outline-cta">
+            <i class="bi bi-telephone-fill"></i> +38 (068) 523-05-47
+          </a>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="hero-img-wrap">
+          <div class="hero-img-glow"></div>
+          <img src="img/ДМТЗ 544Х.jpg" alt="Трактор EUROFENG"
+               onerror="this.style.opacity='.25'; this.onerror=null;">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS BAR ===== -->
+<section id="stats-bar">
+  <div class="container">
+    <div class="row g-0 stats-row">
+      <div class="col-6 col-md-3">
+        <div class="stat-item">
+          <div class="stat-num">2+</div>
+          <div class="stat-label">роки на ринку</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-item">
+          <div class="stat-num">24</div>
+          <div class="stat-label">моделей техніки</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-item">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">сертифікованих товарів</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CATALOG ===== -->
+<section id="catalog">
+  <div class="container">
+
+    <div class="section-head">
+      <h2 class="section-title">Каталог техніки</h2>
+      <p class="section-sub">Вся техніка є в наявності на складі — готова до відвантаження</p>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">
+        <i class="bi bi-grid-3x3-gap-fill"></i> Всі
+      </button>
+      <button class="filter-btn" data-filter="tractor">
+        <i class="bi bi-truck"></i> Трактори
+      </button>
+    </div>
+
+    <div class="row g-3" id="catalog-container"></div>
+
+  </div>
+</section>
+
+<!-- ===== ADVANTAGES ===== -->
+<section id="advantages">
+  <div class="container">
+
+    <div class="section-head">
+      <h2 class="section-title light">Чому обирають нас</h2>
+      <p class="section-sub light">Понад 2 роки постачаємо сільгосптехніку по всій Україні</p>
+    </div>
+
+    <div class="row g-3">
+
+      <div class="col-12 col-sm-6 col-xl-4">
+        <div class="adv-card">
+          <div class="adv-card__num">01</div>
+          <div class="adv-card__icon"><i class="bi bi-currency-dollar"></i></div>
+          <div class="adv-card__title">Ціни від виробника</div>
+          <p class="adv-card__text">Прямі поставки без посередників — ви отримуєте найнижчу можливу ціну на ринку України.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-xl-4">
+        <div class="adv-card">
+          <div class="adv-card__num">02</div>
+          <div class="adv-card__icon"><i class="bi bi-box-seam-fill"></i></div>
+          <div class="adv-card__title">Самовивіз зі складу</div>
+          <p class="adv-card__text">Забирайте техніку у зручний час прямо зі складу в Тернополі — швидко та без черг.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-xl-4">
+        <div class="adv-card">
+          <div class="adv-card__num">03</div>
+          <div class="adv-card__icon"><i class="bi bi-shield-fill-check"></i></div>
+          <div class="adv-card__title">Гарантована якість</div>
+          <p class="adv-card__text">Лише сертифікована техніка з повним пакетом документів і технічним паспортом.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-xl-4">
+        <div class="adv-card">
+          <div class="adv-card__num">04</div>
+          <div class="adv-card__icon"><i class="bi bi-file-earmark-check-fill"></i></div>
+          <div class="adv-card__title">Прозора угода</div>
+          <p class="adv-card__text">Право власності та всі ризики переходять до покупця в момент отримання — жодних сюрпризів.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-xl-4">
+        <div class="adv-card">
+          <div class="adv-card__num">05</div>
+          <div class="adv-card__icon"><i class="bi bi-collection-fill"></i></div>
+          <div class="adv-card__title">Широкий асортимент</div>
+          <p class="adv-card__text">EUROFENG, ДМТЗ, TERRA FORCE — трактори від 22 до 50 к.с.</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-xl-4">
+        <div class="adv-card adv-card--cta">
+          <p>Залишилися питання?<br>Телефонуйте — відповімо!</p>
+          <a href="tel:+380685230547" class="btn btn-primary-cta mt-3">
+            <i class="bi bi-telephone-fill"></i> Зателефонувати
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACTS ===== -->
+<section id="contacts">
+  <div class="container">
+
+    <div class="section-head">
+      <h2 class="section-title">Контакти та реквізити</h2>
+      <p class="section-sub">Завжди раді відповісти на ваші питання</p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-12 col-lg-6">
+        <div class="contact-card">
+          <div class="contact-card__head">
+            <i class="bi bi-building"></i>
+            <h3>ТОВ «Торговий Дім "Тракторний Завод"»</h3>
+          </div>
+
+          <div class="contact-list">
+            <div class="contact-item">
+              <i class="bi bi-geo-alt-fill"></i>
+              <span>46002, Україна, Тернопільський р-н, Тернопільська обл.,<br>м. Тернопіль, вул. Острозького В.К., буд. 4</span>
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-telephone-fill"></i>
+              <a href="tel:+380685230547">+38 (068) 523-05-47</a>
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-envelope-fill"></i>
+              <a href="mailto:ooo.tdtz@gmail.com">ooo.tdtz@gmail.com</a>
+            </div>
+            <div class="contact-item contact-item--note">
+              <i class="bi bi-info-circle-fill"></i>
+              <span>Також контакти партнера ДТЗ:<br>
+                <a href="tel:+380685229791">+38 (068) 522-97-91</a> &nbsp;·&nbsp;
+                <a href="mailto:dniprotractorplant@gmail.com">dniprotractorplant@gmail.com</a>
+              </span>
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-clock-fill"></i>
+              <span>Пн–Пт: 9:00 – 18:00 &nbsp;|&nbsp; Сб: 9:00 – 15:00</span>
+            </div>
+          </div>
+
+          <a href="tel:+380685230547" class="btn btn-primary-cta mt-3">
+            <i class="bi bi-telephone-fill"></i> Зателефонувати зараз
+          </a>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="contact-card">
+          <div class="contact-card__head">
+            <i class="bi bi-card-list"></i>
+            <h3>Реквізити підприємства</h3>
+          </div>
+          <table class="rekviz-table">
+            <tbody>
+              <tr><td>Повна назва</td><td>ТОВ «ТОРГОВИЙ ДІМ "ТРАКТОРНИЙ ЗАВОД"»</td></tr>
+              <tr><td>Код ЄДРПОУ</td><td>37989515</td></tr>
+              <tr><td>Дата заснування</td><td>27.12.2011</td></tr>
+              <tr><td>Юридична адреса</td><td>46002, Тернопільська обл., м. Тернопіль, вул. Острозького В.К., 4</td></tr>
+              <tr><td>Телефон</td><td>+38 (068) 523-05-47</td></tr>
+              <tr><td>E-mail</td><td>ooo.tdtz@gmail.com</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA STRIP ===== -->
+<div id="cta-strip">
+  <div class="container">
+    <div class="cta-strip-inner">
+      <div>
+        <p class="cta-strip-label">Вся техніка відпускається зі складу підприємства</p>
+        <p class="cta-strip-note"><strong style="color:var(--orange)">Тільки самовивіз · Без доставки</strong></p>
+      </div>
+      <a href="tel:+380685230547" class="cta-phone">
+        <i class="bi bi-telephone-fill"></i>+38 (068) 523-05-47
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <div class="logo-icon sm"><i class="bi bi-gear-wide-connected"></i></div>
+        <span>ТДТЗ</span>
+      </div>
+      <div class="footer-info">
+        <p>© 2026 ТОВ «Торговий Дім "Тракторний Завод"» · Код ЄДРПОУ 37989515</p>
+        <p>Всі ціни уточнюйте по телефону · <a href="mailto:ooo.tdtz@gmail.com">ooo.tdtz@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== MODAL ===== -->
+<div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <div class="modal-header-inner">
+          <div class="modal-title-icon"><i class="bi bi-list-check"></i></div>
+          <h5 class="modal-title" id="modal-title">Технічні характеристики</h5>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрити"></button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-img-wrap">
+          <img id="modal-img" src="" alt="Фото товару"
+               onerror="this.style.opacity='.2'; this.onerror=null;">
+        </div>
+
+        <div class="table-responsive">
+          <table class="specs-table">
+            <thead>
+              <tr>
+                <th style="width:36px">№</th>
+                <th>Характеристика</th>
+                <th>Параметри</th>
+              </tr>
+            </thead>
+            <tbody id="modal-specs-body"></tbody>
+          </table>
+        </div>
+
+        <div class="modal-note" id="modal-note" style="display:none;"></div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="tel:+380685230547" class="btn btn-call">
+          <i class="bi bi-telephone-fill"></i> Уточнити ціну
+        </a>
+        <a href="mailto:ooo.tdtz@gmail.com" class="btn btn-outline-secondary btn-sm">
+          <i class="bi bi-envelope-fill"></i> Написати
+        </a>
+        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Закрити</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
